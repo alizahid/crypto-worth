@@ -1,0 +1,33 @@
+// fonts
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+// global
+
+a {
+  @apply transition-colors text-teal-600 hover:text-teal-700;
+}
+
+body {
+  @apply font-body cursor-default bg-emerald-50 text-black;
+}
+
+button {
+  @apply p-4 transition-colors bg-emerald-600 hover:bg-emerald-500 text-white font-semibold focus:outline-none;
+}
+
+input {
+  @apply appearance-none bg-white w-full p-4 focus:outline-none;
+}
+
+// layout
+
+#__next {
+  @apply min-h-screen max-w-lg p-8 flex flex-col;
+
+  & > main {
+    @apply flex-1 my-16;
+  }
+}
+
+// components

@@ -1,0 +1,2318 @@
+[
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "icon": "https://assets.coinlayer.com/icons/BTC.png",
+    "start": "2011-01-01"
+  },
+  {
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "icon": "https://assets.coinlayer.com/icons/LTC.png",
+    "start": "2013-11-01"
+  },
+  {
+    "symbol": "VEN",
+    "name": "Vechain",
+    "icon": "https://assets.coinlayer.com/icons/VEN.png",
+    "start": "2013-11-01"
+  },
+  {
+    "symbol": "DOGE",
+    "name": "Dogecoin",
+    "icon": "https://assets.coinlayer.com/icons/DOGE.png",
+    "start": "2014-02-01"
+  },
+  {
+    "symbol": "DASH",
+    "name": "DigitalCash",
+    "icon": "https://assets.coinlayer.com/icons/DASH.png",
+    "start": "2014-03-01"
+  },
+  {
+    "symbol": "XMR",
+    "name": "Monero",
+    "icon": "https://assets.coinlayer.com/icons/XMR.png",
+    "start": "2015-02-01"
+  },
+  {
+    "symbol": "XRP",
+    "name": "Ripple",
+    "icon": "https://assets.coinlayer.com/icons/XRP.png",
+    "start": "2015-02-01"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "icon": "https://assets.coinlayer.com/icons/ETH.png",
+    "start": "2015-09-01"
+  },
+  {
+    "symbol": "XVG",
+    "name": "Verge",
+    "icon": "https://assets.coinlayer.com/icons/XVG.png",
+    "start": "2016-03-01"
+  },
+  {
+    "symbol": "STEEM",
+    "name": "Steem",
+    "icon": "https://assets.coinlayer.com/icons/STEEM.png",
+    "start": "2016-05-01"
+  },
+  {
+    "symbol": "ETC",
+    "name": "Ethereum Classic",
+    "icon": "https://assets.coinlayer.com/icons/ETC.png",
+    "start": "2016-08-01"
+  },
+  {
+    "symbol": "ZEC",
+    "name": "ZCash",
+    "icon": "https://assets.coinlayer.com/icons/ZEC.png",
+    "start": "2016-11-01"
+  },
+  {
+    "symbol": "XLM",
+    "name": "Stellar",
+    "icon": "https://assets.coinlayer.com/icons/XLM.png",
+    "start": "2017-02-01"
+  },
+  {
+    "symbol": "LSK",
+    "name": "Lisk",
+    "icon": "https://assets.coinlayer.com/icons/LSK.png",
+    "start": "2017-03-01"
+  },
+  {
+    "symbol": "STRAT",
+    "name": "Stratis",
+    "icon": "https://assets.coinlayer.com/icons/STRAT.png",
+    "start": "2017-06-01"
+  },
+  {
+    "symbol": "EOS",
+    "name": "EOS",
+    "icon": "https://assets.coinlayer.com/icons/EOS.png",
+    "start": "2017-07-01"
+  },
+  {
+    "symbol": "MIOTA",
+    "name": "IOTA",
+    "icon": "https://assets.coinlayer.com/icons/MIOTA.png",
+    "start": "2017-07-01"
+  },
+  {
+    "symbol": "BCH",
+    "name": "Bitcoin Cash / BCC",
+    "icon": "https://assets.coinlayer.com/icons/BCH.png",
+    "start": "2017-08-01"
+  },
+  {
+    "symbol": "OMG",
+    "name": "OmiseGo",
+    "icon": "https://assets.coinlayer.com/icons/OMG.png",
+    "start": "2017-08-01"
+  },
+  {
+    "symbol": "NEO",
+    "name": "NEO",
+    "icon": "https://assets.coinlayer.com/icons/NEO.png",
+    "start": "2017-09-01"
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Coin",
+    "icon": "https://assets.coinlayer.com/icons/BNB.png",
+    "start": "2017-10-01"
+  },
+  {
+    "symbol": "HSR",
+    "name": "Hshare",
+    "icon": "https://assets.coinlayer.com/icons/HSR.png",
+    "start": "2017-10-01"
+  },
+  {
+    "symbol": "ICX",
+    "name": "ICON Project",
+    "icon": "https://assets.coinlayer.com/icons/ICX.png",
+    "start": "2017-10-01"
+  },
+  {
+    "symbol": "BCPT",
+    "name": "BlockMason Credit Protocol",
+    "icon": "https://assets.coinlayer.com/icons/BCPT.png",
+    "start": "2017-11-01"
+  },
+  {
+    "symbol": "BTG",
+    "name": "Bitcoin Gold",
+    "icon": "https://assets.coinlayer.com/icons/BTG.png",
+    "start": "2017-11-01"
+  },
+  {
+    "symbol": "OCN",
+    "name": "Odyssey",
+    "icon": "https://assets.coinlayer.com/icons/OCN.png",
+    "start": "2017-11-01"
+  },
+  {
+    "symbol": "TRX",
+    "name": "Tronix",
+    "icon": "https://assets.coinlayer.com/icons/TRX.png",
+    "start": "2017-11-01"
+  },
+  {
+    "symbol": "ADA",
+    "name": "Cardano",
+    "icon": "https://assets.coinlayer.com/icons/ADA.png",
+    "start": "2018-01-01"
+  },
+  {
+    "symbol": "IOST",
+    "name": "IOS token",
+    "icon": "https://assets.coinlayer.com/icons/IOST.png",
+    "start": "2018-02-01"
+  },
+  {
+    "symbol": "XRB",
+    "name": "Nano",
+    "icon": "https://assets.coinlayer.com/icons/XRB.png",
+    "start": "2018-02-01"
+  },
+  {
+    "symbol": "611",
+    "name": "SixEleven",
+    "icon": "https://assets.coinlayer.com/icons/611.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ABC",
+    "name": "AB-Chain",
+    "icon": "https://assets.coinlayer.com/icons/ABC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ACP",
+    "name": "Anarchists Prime",
+    "icon": "https://assets.coinlayer.com/icons/ACP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ACT",
+    "name": "ACT",
+    "icon": "https://assets.coinlayer.com/icons/ACT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ACT*",
+    "name": "Achain",
+    "icon": "https://assets.coinlayer.com/icons/ACT*.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ADCN",
+    "name": "Asiadigicoin",
+    "icon": "https://assets.coinlayer.com/icons/ADCN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ADL",
+    "name": "Adelphoi",
+    "icon": "https://assets.coinlayer.com/icons/ADL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ADX",
+    "name": "AdEx",
+    "icon": "https://assets.coinlayer.com/icons/ADX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ADZ",
+    "name": "Adzcoin",
+    "icon": "https://assets.coinlayer.com/icons/ADZ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AE",
+    "name": "Aeternity",
+    "icon": "https://assets.coinlayer.com/icons/AE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AGI",
+    "name": "SingularityNET",
+    "icon": "https://assets.coinlayer.com/icons/AGI.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AIB",
+    "name": "AdvancedInternetBlock",
+    "icon": "https://assets.coinlayer.com/icons/AIB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AIDOC",
+    "name": "AI Doctor",
+    "icon": "https://assets.coinlayer.com/icons/AIDOC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AION",
+    "name": "Aion",
+    "icon": "https://assets.coinlayer.com/icons/AION.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AIR",
+    "name": "AirToken",
+    "icon": "https://assets.coinlayer.com/icons/AIR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ALT",
+    "name": "ALTcoin",
+    "icon": "https://assets.coinlayer.com/icons/ALT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AMB",
+    "name": "Ambrosus",
+    "icon": "https://assets.coinlayer.com/icons/AMB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AMM",
+    "name": "MicroMoney",
+    "icon": "https://assets.coinlayer.com/icons/AMM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ANT",
+    "name": "Aragon",
+    "icon": "https://assets.coinlayer.com/icons/ANT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "APC",
+    "name": "AlpaCoin",
+    "icon": "https://assets.coinlayer.com/icons/APC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "APPC",
+    "name": "AppCoins",
+    "icon": "https://assets.coinlayer.com/icons/APPC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ARC",
+    "name": "ArcticCoin",
+    "icon": "https://assets.coinlayer.com/icons/ARC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ARCT",
+    "name": "ArbitrageCT",
+    "icon": "https://assets.coinlayer.com/icons/ARCT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ARDR",
+    "name": "Ardor",
+    "icon": "https://assets.coinlayer.com/icons/ARDR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ARK",
+    "name": "ARK",
+    "icon": "https://assets.coinlayer.com/icons/ARK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ARN",
+    "name": "Aeron",
+    "icon": "https://assets.coinlayer.com/icons/ARN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ASAFE2",
+    "name": "Allsafe",
+    "icon": "https://assets.coinlayer.com/icons/ASAFE2.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AST",
+    "name": "AirSwap",
+    "icon": "https://assets.coinlayer.com/icons/AST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ATB",
+    "name": "ATB coin",
+    "icon": "https://assets.coinlayer.com/icons/ATB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ATM",
+    "name": "ATMChain",
+    "icon": "https://assets.coinlayer.com/icons/ATM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AURS",
+    "name": "Aureus",
+    "icon": "https://assets.coinlayer.com/icons/AURS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "AVT",
+    "name": "AventCoin",
+    "icon": "https://assets.coinlayer.com/icons/AVT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BAR",
+    "name": "TBIS token",
+    "icon": "https://assets.coinlayer.com/icons/BAR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BASH",
+    "name": "LuckChain",
+    "icon": "https://assets.coinlayer.com/icons/BASH.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BAT",
+    "name": "Basic Attention Token",
+    "icon": "https://assets.coinlayer.com/icons/BAT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BAY",
+    "name": "BitBay",
+    "icon": "https://assets.coinlayer.com/icons/BAY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BBP",
+    "name": "BiblePay",
+    "icon": "https://assets.coinlayer.com/icons/BBP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BCD",
+    "name": "Bitcoin Diamond",
+    "icon": "https://assets.coinlayer.com/icons/BCD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BCN",
+    "name": "ByteCoin",
+    "icon": "https://assets.coinlayer.com/icons/BCN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BEE",
+    "name": "Bee Token",
+    "icon": "https://assets.coinlayer.com/icons/BEE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BIO",
+    "name": "Biocoin",
+    "icon": "https://assets.coinlayer.com/icons/BIO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BLC",
+    "name": "BlakeCoin",
+    "icon": "https://assets.coinlayer.com/icons/BLC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BLOCK",
+    "name": "BlockNet",
+    "icon": "https://assets.coinlayer.com/icons/BLOCK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BLU",
+    "name": "BlueCoin",
+    "icon": "https://assets.coinlayer.com/icons/BLU.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BLZ",
+    "name": "Bluzelle",
+    "icon": "https://assets.coinlayer.com/icons/BLZ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BMC",
+    "name": "Blackmoon Crypto",
+    "icon": "https://assets.coinlayer.com/icons/BMC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BNT",
+    "name": "Bancor Network Token",
+    "icon": "https://assets.coinlayer.com/icons/BNT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BOST",
+    "name": "BoostCoin",
+    "icon": "https://assets.coinlayer.com/icons/BOST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BQ",
+    "name": "Bitqy",
+    "icon": "https://assets.coinlayer.com/icons/BQ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BQX",
+    "name": "Ethos",
+    "icon": "https://assets.coinlayer.com/icons/BQX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BRD",
+    "name": "Bread token",
+    "icon": "https://assets.coinlayer.com/icons/BRD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BRIT",
+    "name": "BritCoin",
+    "icon": "https://assets.coinlayer.com/icons/BRIT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BT1",
+    "name": "Bitfinex Bitcoin Future",
+    "icon": "https://assets.coinlayer.com/icons/BT1.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BT2",
+    "name": "Bitcoin SegWit2X",
+    "icon": "https://assets.coinlayer.com/icons/BT2.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTCA",
+    "name": "Bitair",
+    "icon": "https://assets.coinlayer.com/icons/BTCA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTCS",
+    "name": "Bitcoin Scrypt",
+    "icon": "https://assets.coinlayer.com/icons/BTCS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTCZ",
+    "name": "BitcoinZ",
+    "icon": "https://assets.coinlayer.com/icons/BTCZ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTLC",
+    "name": "BitLuckCoin",
+    "icon": "https://assets.coinlayer.com/icons/BTLC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTM",
+    "name": "BitMark",
+    "icon": "https://assets.coinlayer.com/icons/BTM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTM*",
+    "name": "Bytom",
+    "icon": "https://assets.coinlayer.com/icons/BTM*.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTQ",
+    "name": "BitQuark",
+    "icon": "https://assets.coinlayer.com/icons/BTQ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTS",
+    "name": "Bitshares",
+    "icon": "https://assets.coinlayer.com/icons/BTS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BTX",
+    "name": "Bitcore",
+    "icon": "https://assets.coinlayer.com/icons/BTX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "BURST",
+    "name": "BurstCoin",
+    "icon": "https://assets.coinlayer.com/icons/BURST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CALC",
+    "name": "CaliphCoin",
+    "icon": "https://assets.coinlayer.com/icons/CALC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CAS",
+    "name": "Cashaa",
+    "icon": "https://assets.coinlayer.com/icons/CAS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CAT",
+    "name": "BlockCAT",
+    "icon": "https://assets.coinlayer.com/icons/CAT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CCRB",
+    "name": "CryptoCarbon",
+    "icon": "https://assets.coinlayer.com/icons/CCRB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CDT",
+    "name": "CoinDash",
+    "icon": "https://assets.coinlayer.com/icons/CDT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CESC",
+    "name": "Crypto Escudo",
+    "icon": "https://assets.coinlayer.com/icons/CESC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CHAT",
+    "name": "ChatCoin",
+    "icon": "https://assets.coinlayer.com/icons/CHAT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CJ",
+    "name": "CryptoJacks",
+    "icon": "https://assets.coinlayer.com/icons/CJ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CL",
+    "name": "CoinLancer",
+    "icon": "https://assets.coinlayer.com/icons/CL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CLD",
+    "name": "Cloud",
+    "icon": "https://assets.coinlayer.com/icons/CLD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CLOAK",
+    "name": "CloakCoin",
+    "icon": "https://assets.coinlayer.com/icons/CLOAK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CMT*",
+    "name": "CyberMiles",
+    "icon": "https://assets.coinlayer.com/icons/CMT*.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CND",
+    "name": "Cindicator",
+    "icon": "https://assets.coinlayer.com/icons/CND.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CNX",
+    "name": "Cryptonex",
+    "icon": "https://assets.coinlayer.com/icons/CNX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CPC",
+    "name": "CapriCoin",
+    "icon": "https://assets.coinlayer.com/icons/CPC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CRAVE",
+    "name": "CraveCoin",
+    "icon": "https://assets.coinlayer.com/icons/CRAVE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CRC",
+    "name": "CrowdCoin",
+    "icon": "https://assets.coinlayer.com/icons/CRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CRE",
+    "name": "Credits",
+    "icon": "https://assets.coinlayer.com/icons/CRE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CRW",
+    "name": "Crown Coin",
+    "icon": "https://assets.coinlayer.com/icons/CRW.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CTO",
+    "name": "Crypto",
+    "icon": "https://assets.coinlayer.com/icons/CTO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CTR",
+    "name": "Centra",
+    "icon": "https://assets.coinlayer.com/icons/CTR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "CVC",
+    "name": "Civic",
+    "icon": "https://assets.coinlayer.com/icons/CVC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DAS",
+    "name": "DAS",
+    "icon": "https://assets.coinlayer.com/icons/DAS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DAT",
+    "name": "Datum",
+    "icon": "https://assets.coinlayer.com/icons/DAT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DATA",
+    "name": "Streamr DATAcoin",
+    "icon": "https://assets.coinlayer.com/icons/DATA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DBC",
+    "name": "DeepBrain Chain",
+    "icon": "https://assets.coinlayer.com/icons/DBC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DBET",
+    "name": "Decent.bet",
+    "icon": "https://assets.coinlayer.com/icons/DBET.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DCN",
+    "name": "Dentacoin",
+    "icon": "https://assets.coinlayer.com/icons/DCN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DCR",
+    "name": "Decred",
+    "icon": "https://assets.coinlayer.com/icons/DCR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DCT",
+    "name": "Decent",
+    "icon": "https://assets.coinlayer.com/icons/DCT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DEEP",
+    "name": "Deep Gold",
+    "icon": "https://assets.coinlayer.com/icons/DEEP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DENT",
+    "name": "Dent",
+    "icon": "https://assets.coinlayer.com/icons/DENT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DGB",
+    "name": "DigiByte",
+    "icon": "https://assets.coinlayer.com/icons/DGB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DGD",
+    "name": "Digix DAO",
+    "icon": "https://assets.coinlayer.com/icons/DGD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DIM",
+    "name": "DIMCOIN",
+    "icon": "https://assets.coinlayer.com/icons/DIM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DIME",
+    "name": "DimeCoin",
+    "icon": "https://assets.coinlayer.com/icons/DIME.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DMD",
+    "name": "Diamond",
+    "icon": "https://assets.coinlayer.com/icons/DMD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DNT",
+    "name": "district0x",
+    "icon": "https://assets.coinlayer.com/icons/DNT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DRGN",
+    "name": "Dragonchain",
+    "icon": "https://assets.coinlayer.com/icons/DRGN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DRZ",
+    "name": "Droidz",
+    "icon": "https://assets.coinlayer.com/icons/DRZ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DSH",
+    "name": "Dashcoin",
+    "icon": "https://assets.coinlayer.com/icons/DSH.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "DTA",
+    "name": "Data",
+    "icon": "https://assets.coinlayer.com/icons/DTA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EC",
+    "name": "Eclipse",
+    "icon": "https://assets.coinlayer.com/icons/EC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EDG",
+    "name": "Edgeless",
+    "icon": "https://assets.coinlayer.com/icons/EDG.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EDO",
+    "name": "Eidoo",
+    "icon": "https://assets.coinlayer.com/icons/EDO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EDR",
+    "name": "E-Dinar Coin",
+    "icon": "https://assets.coinlayer.com/icons/EDR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EKO",
+    "name": "EchoLink",
+    "icon": "https://assets.coinlayer.com/icons/EKO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ELA",
+    "name": "Elastos",
+    "icon": "https://assets.coinlayer.com/icons/ELA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ELF",
+    "name": "aelf",
+    "icon": "https://assets.coinlayer.com/icons/ELF.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EMC",
+    "name": "Emercoin",
+    "icon": "https://assets.coinlayer.com/icons/EMC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EMGO",
+    "name": "MobileGo",
+    "icon": "https://assets.coinlayer.com/icons/EMGO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ENG",
+    "name": "Enigma",
+    "icon": "https://assets.coinlayer.com/icons/ENG.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ENJ",
+    "name": "Enjin Coin",
+    "icon": "https://assets.coinlayer.com/icons/ENJ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ERT",
+    "name": "Esports.com",
+    "icon": "https://assets.coinlayer.com/icons/ERT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ETN",
+    "name": "Electroneum",
+    "icon": "https://assets.coinlayer.com/icons/ETN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ETP",
+    "name": "Metaverse",
+    "icon": "https://assets.coinlayer.com/icons/ETP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ETT",
+    "name": "EncryptoTel",
+    "icon": "https://assets.coinlayer.com/icons/ETT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EVR",
+    "name": "Everus",
+    "icon": "https://assets.coinlayer.com/icons/EVR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "EVX",
+    "name": "Everex",
+    "icon": "https://assets.coinlayer.com/icons/EVX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FCT",
+    "name": "Factoids",
+    "icon": "https://assets.coinlayer.com/icons/FCT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FLP",
+    "name": "Gameflip",
+    "icon": "https://assets.coinlayer.com/icons/FLP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FOTA",
+    "name": "Fortuna",
+    "icon": "https://assets.coinlayer.com/icons/FOTA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FRST",
+    "name": "FirstCoin",
+    "icon": "https://assets.coinlayer.com/icons/FRST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FUEL",
+    "name": "Etherparty",
+    "icon": "https://assets.coinlayer.com/icons/FUEL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FUN",
+    "name": "FunFair",
+    "icon": "https://assets.coinlayer.com/icons/FUN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FUNC",
+    "name": "FunCoin",
+    "icon": "https://assets.coinlayer.com/icons/FUNC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "FUTC",
+    "name": "FutCoin",
+    "icon": "https://assets.coinlayer.com/icons/FUTC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GAME",
+    "name": "Gamecredits",
+    "icon": "https://assets.coinlayer.com/icons/GAME.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GAS",
+    "name": "Gas",
+    "icon": "https://assets.coinlayer.com/icons/GAS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GBYTE",
+    "name": "Byteball",
+    "icon": "https://assets.coinlayer.com/icons/GBYTE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GMX",
+    "name": "Goldmaxcoin",
+    "icon": "https://assets.coinlayer.com/icons/GMX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GNO",
+    "name": "Gnosis",
+    "icon": "https://assets.coinlayer.com/icons/GNO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GNT",
+    "name": "Golem Network Token",
+    "icon": "https://assets.coinlayer.com/icons/GNT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GNX",
+    "name": "Genaro Network",
+    "icon": "https://assets.coinlayer.com/icons/GNX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GRC",
+    "name": "GridCoin",
+    "icon": "https://assets.coinlayer.com/icons/GRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GRS",
+    "name": "Groestlcoin ",
+    "icon": "https://assets.coinlayer.com/icons/GRS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GRWI",
+    "name": "Growers International",
+    "icon": "https://assets.coinlayer.com/icons/GRWI.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GTC",
+    "name": "Game",
+    "icon": "https://assets.coinlayer.com/icons/GTC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GTO",
+    "name": "GIFTO",
+    "icon": "https://assets.coinlayer.com/icons/GTO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GUP",
+    "name": "Guppy",
+    "icon": "https://assets.coinlayer.com/icons/GUP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GVT",
+    "name": "Genesis Vision",
+    "icon": "https://assets.coinlayer.com/icons/GVT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "GXS",
+    "name": "GXShares",
+    "icon": "https://assets.coinlayer.com/icons/GXS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "HAC",
+    "name": "Hackspace Capital",
+    "icon": "https://assets.coinlayer.com/icons/HAC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "HNC",
+    "name": "Hellenic Coin",
+    "icon": "https://assets.coinlayer.com/icons/HNC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "HST",
+    "name": "Decision Token",
+    "icon": "https://assets.coinlayer.com/icons/HST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "HVN",
+    "name": "Hive Project",
+    "icon": "https://assets.coinlayer.com/icons/HVN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ICN",
+    "name": "Iconomi",
+    "icon": "https://assets.coinlayer.com/icons/ICN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ICOS",
+    "name": "ICOBox",
+    "icon": "https://assets.coinlayer.com/icons/ICOS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "IGNIS",
+    "name": "Ignis",
+    "icon": "https://assets.coinlayer.com/icons/IGNIS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ILC",
+    "name": "ILCoin",
+    "icon": "https://assets.coinlayer.com/icons/ILC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "INK",
+    "name": "Ink",
+    "icon": "https://assets.coinlayer.com/icons/INK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "INS",
+    "name": "INS Ecosystem",
+    "icon": "https://assets.coinlayer.com/icons/INS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "INSN",
+    "name": "Insane Coin",
+    "icon": "https://assets.coinlayer.com/icons/INSN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "INT",
+    "name": "Internet Node Token",
+    "icon": "https://assets.coinlayer.com/icons/INT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "IOP",
+    "name": "Internet of People",
+    "icon": "https://assets.coinlayer.com/icons/IOP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ITC",
+    "name": "IoT Chain",
+    "icon": "https://assets.coinlayer.com/icons/ITC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KCS",
+    "name": "Kucoin",
+    "icon": "https://assets.coinlayer.com/icons/KCS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KICK",
+    "name": "KickCoin",
+    "icon": "https://assets.coinlayer.com/icons/KICK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KIN",
+    "name": "Kin",
+    "icon": "https://assets.coinlayer.com/icons/KIN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KLC",
+    "name": "KiloCoin",
+    "icon": "https://assets.coinlayer.com/icons/KLC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KMD",
+    "name": "Komodo",
+    "icon": "https://assets.coinlayer.com/icons/KMD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KNC",
+    "name": "Kyber Network",
+    "icon": "https://assets.coinlayer.com/icons/KNC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "KRB",
+    "name": "Karbo",
+    "icon": "https://assets.coinlayer.com/icons/KRB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LA",
+    "name": "LATOKEN",
+    "icon": "https://assets.coinlayer.com/icons/LA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LEND",
+    "name": "EthLend",
+    "icon": "https://assets.coinlayer.com/icons/LEND.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LEO",
+    "name": "LEOcoin",
+    "icon": "https://assets.coinlayer.com/icons/LEO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LINDA",
+    "name": "Linda",
+    "icon": "https://assets.coinlayer.com/icons/LINDA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LINK",
+    "name": "ChainLink",
+    "icon": "https://assets.coinlayer.com/icons/LINK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LOC",
+    "name": "Loco",
+    "icon": "https://assets.coinlayer.com/icons/LOC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LOG",
+    "name": "Wood Coin",
+    "icon": "https://assets.coinlayer.com/icons/LOG.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LRC",
+    "name": "Loopring",
+    "icon": "https://assets.coinlayer.com/icons/LRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LUN",
+    "name": "Lunyr",
+    "icon": "https://assets.coinlayer.com/icons/LUN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "LUX",
+    "name": "LUXCoin",
+    "icon": "https://assets.coinlayer.com/icons/LUX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MAID",
+    "name": "MaidSafe Coin",
+    "icon": "https://assets.coinlayer.com/icons/MAID.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MANA",
+    "name": "Decentraland",
+    "icon": "https://assets.coinlayer.com/icons/MANA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MCAP",
+    "name": "MCAP",
+    "icon": "https://assets.coinlayer.com/icons/MCAP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MCO",
+    "name": "Monaco",
+    "icon": "https://assets.coinlayer.com/icons/MCO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MDA",
+    "name": "Moeda",
+    "icon": "https://assets.coinlayer.com/icons/MDA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MDS",
+    "name": "MediShares",
+    "icon": "https://assets.coinlayer.com/icons/MDS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MKR",
+    "name": "Maker",
+    "icon": "https://assets.coinlayer.com/icons/MKR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MLN",
+    "name": "Melon",
+    "icon": "https://assets.coinlayer.com/icons/MLN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MNX",
+    "name": "MinexCoin",
+    "icon": "https://assets.coinlayer.com/icons/MNX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MOD",
+    "name": "Modum",
+    "icon": "https://assets.coinlayer.com/icons/MOD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MOIN",
+    "name": "MoinCoin",
+    "icon": "https://assets.coinlayer.com/icons/MOIN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MONA",
+    "name": "MonaCoin",
+    "icon": "https://assets.coinlayer.com/icons/MONA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MTL",
+    "name": "Metal",
+    "icon": "https://assets.coinlayer.com/icons/MTL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MTN*",
+    "name": "Medicalchain",
+    "icon": "https://assets.coinlayer.com/icons/MTN*.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "MTX",
+    "name": "Matryx",
+    "icon": "https://assets.coinlayer.com/icons/MTX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NAS",
+    "name": "Nebulas",
+    "icon": "https://assets.coinlayer.com/icons/NAS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NAV",
+    "name": "NavCoin",
+    "icon": "https://assets.coinlayer.com/icons/NAV.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NBT",
+    "name": "NuBits",
+    "icon": "https://assets.coinlayer.com/icons/NBT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NDC",
+    "name": "NeverDie",
+    "icon": "https://assets.coinlayer.com/icons/NDC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NEBL",
+    "name": "Neblio",
+    "icon": "https://assets.coinlayer.com/icons/NEBL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NEU",
+    "name": "Neumark",
+    "icon": "https://assets.coinlayer.com/icons/NEU.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NEWB",
+    "name": "Newbium",
+    "icon": "https://assets.coinlayer.com/icons/NEWB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NGC",
+    "name": "NagaCoin",
+    "icon": "https://assets.coinlayer.com/icons/NGC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NKC",
+    "name": "Nukecoinz",
+    "icon": "https://assets.coinlayer.com/icons/NKC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NLC2",
+    "name": "NoLimitCoin",
+    "icon": "https://assets.coinlayer.com/icons/NLC2.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NMC",
+    "name": "NameCoin",
+    "icon": "https://assets.coinlayer.com/icons/NMC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NMR",
+    "name": "Numerai",
+    "icon": "https://assets.coinlayer.com/icons/NMR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NULS",
+    "name": "Nuls",
+    "icon": "https://assets.coinlayer.com/icons/NULS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NVC",
+    "name": "NovaCoin",
+    "icon": "https://assets.coinlayer.com/icons/NVC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "NXT",
+    "name": "Nxt",
+    "icon": "https://assets.coinlayer.com/icons/NXT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OAX",
+    "name": "OpenANX",
+    "icon": "https://assets.coinlayer.com/icons/OAX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OBITS",
+    "name": "Obits Coin",
+    "icon": "https://assets.coinlayer.com/icons/OBITS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OC",
+    "name": "OrangeCoin",
+    "icon": "https://assets.coinlayer.com/icons/OC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ODN",
+    "name": "Obsidian",
+    "icon": "https://assets.coinlayer.com/icons/ODN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OK",
+    "name": "OKCash",
+    "icon": "https://assets.coinlayer.com/icons/OK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OMNI",
+    "name": "Omni",
+    "icon": "https://assets.coinlayer.com/icons/OMNI.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ORE",
+    "name": "Galactrum",
+    "icon": "https://assets.coinlayer.com/icons/ORE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ORME",
+    "name": "Ormeus Coin",
+    "icon": "https://assets.coinlayer.com/icons/ORME.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OST",
+    "name": "Simple Token",
+    "icon": "https://assets.coinlayer.com/icons/OST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OTN",
+    "name": "Open Trading Network",
+    "icon": "https://assets.coinlayer.com/icons/OTN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OTX",
+    "name": "Octanox",
+    "icon": "https://assets.coinlayer.com/icons/OTX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "OXY",
+    "name": "Oxycoin",
+    "icon": "https://assets.coinlayer.com/icons/OXY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PART",
+    "name": "Particl",
+    "icon": "https://assets.coinlayer.com/icons/PART.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PAY",
+    "name": "TenX",
+    "icon": "https://assets.coinlayer.com/icons/PAY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PBT",
+    "name": "Primalbase",
+    "icon": "https://assets.coinlayer.com/icons/PBT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PCS",
+    "name": "Pabyosi Coin",
+    "icon": "https://assets.coinlayer.com/icons/PCS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PIVX",
+    "name": "Private Instant Verified Transaction",
+    "icon": "https://assets.coinlayer.com/icons/PIVX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PIZZA",
+    "name": "PizzaCoin",
+    "icon": "https://assets.coinlayer.com/icons/PIZZA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PLBT",
+    "name": "Polybius",
+    "icon": "https://assets.coinlayer.com/icons/PLBT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PLR",
+    "name": "Pillar",
+    "icon": "https://assets.coinlayer.com/icons/PLR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "POE",
+    "name": "Po.et",
+    "icon": "https://assets.coinlayer.com/icons/POE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "POLY",
+    "name": "PolyBit",
+    "icon": "https://assets.coinlayer.com/icons/POLY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "POSW",
+    "name": "PoSWallet",
+    "icon": "https://assets.coinlayer.com/icons/POSW.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "POWR",
+    "name": "Power Ledger",
+    "icon": "https://assets.coinlayer.com/icons/POWR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PPC",
+    "name": "PeerCoin",
+    "icon": "https://assets.coinlayer.com/icons/PPC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PPT",
+    "name": "Populous",
+    "icon": "https://assets.coinlayer.com/icons/PPT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PPY",
+    "name": "Peerplays",
+    "icon": "https://assets.coinlayer.com/icons/PPY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PRC",
+    "name": "ProsperCoin",
+    "icon": "https://assets.coinlayer.com/icons/PRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PRES",
+    "name": "President Trump",
+    "icon": "https://assets.coinlayer.com/icons/PRES.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PRG",
+    "name": "Paragon",
+    "icon": "https://assets.coinlayer.com/icons/PRG.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PRL",
+    "name": "Oyster Pearl",
+    "icon": "https://assets.coinlayer.com/icons/PRL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PRO",
+    "name": "Propy",
+    "icon": "https://assets.coinlayer.com/icons/PRO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PURA",
+    "name": "Pura",
+    "icon": "https://assets.coinlayer.com/icons/PURA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "PUT",
+    "name": "PutinCoin",
+    "icon": "https://assets.coinlayer.com/icons/PUT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "QASH",
+    "name": "Quoine Liquid",
+    "icon": "https://assets.coinlayer.com/icons/QASH.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "QAU",
+    "name": "Quantum",
+    "icon": "https://assets.coinlayer.com/icons/QAU.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "QSP",
+    "name": "Quantstamp",
+    "icon": "https://assets.coinlayer.com/icons/QSP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "QTUM",
+    "name": "QTUM",
+    "icon": "https://assets.coinlayer.com/icons/QTUM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "QUN",
+    "name": "QunQun",
+    "icon": "https://assets.coinlayer.com/icons/QUN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "R",
+    "name": "Revain",
+    "icon": "https://assets.coinlayer.com/icons/R.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RBIES",
+    "name": "Rubies",
+    "icon": "https://assets.coinlayer.com/icons/RBIES.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RCN",
+    "name": "Ripio",
+    "icon": "https://assets.coinlayer.com/icons/RCN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RDD",
+    "name": "ReddCoin",
+    "icon": "https://assets.coinlayer.com/icons/RDD.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RDN",
+    "name": "RadonPay",
+    "icon": "https://assets.coinlayer.com/icons/RDN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RDN*",
+    "name": "Raiden Network",
+    "icon": "https://assets.coinlayer.com/icons/RDN*.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "REBL",
+    "name": "Rebellious",
+    "icon": "https://assets.coinlayer.com/icons/REBL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "REE",
+    "name": "ReeCoin",
+    "icon": "https://assets.coinlayer.com/icons/REE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "REP",
+    "name": "Augur",
+    "icon": "https://assets.coinlayer.com/icons/REP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "REQ",
+    "name": "Request Network",
+    "icon": "https://assets.coinlayer.com/icons/REQ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "REV",
+    "name": "Revenu",
+    "icon": "https://assets.coinlayer.com/icons/REV.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RGC",
+    "name": "RG Coin",
+    "icon": "https://assets.coinlayer.com/icons/RGC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RHOC",
+    "name": "RChain",
+    "icon": "https://assets.coinlayer.com/icons/RHOC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RIYA",
+    "name": "Etheriya",
+    "icon": "https://assets.coinlayer.com/icons/RIYA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RKC",
+    "name": "Royal Kingdom Coin",
+    "icon": "https://assets.coinlayer.com/icons/RKC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RLC",
+    "name": "iEx.ec",
+    "icon": "https://assets.coinlayer.com/icons/RLC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RPX",
+    "name": "Red Pulse",
+    "icon": "https://assets.coinlayer.com/icons/RPX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "RUFF",
+    "name": "Ruff",
+    "icon": "https://assets.coinlayer.com/icons/RUFF.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SALT",
+    "name": "Salt Lending",
+    "icon": "https://assets.coinlayer.com/icons/SALT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SAN",
+    "name": "Santiment",
+    "icon": "https://assets.coinlayer.com/icons/SAN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SBC",
+    "name": "StableCoin",
+    "icon": "https://assets.coinlayer.com/icons/SBC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SC",
+    "name": "Siacoin",
+    "icon": "https://assets.coinlayer.com/icons/SC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SENT",
+    "name": "Sentinel",
+    "icon": "https://assets.coinlayer.com/icons/SENT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SHIFT",
+    "name": "Shift",
+    "icon": "https://assets.coinlayer.com/icons/SHIFT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SIB",
+    "name": "SibCoin",
+    "icon": "https://assets.coinlayer.com/icons/SIB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SMART",
+    "name": "SmartCash",
+    "icon": "https://assets.coinlayer.com/icons/SMART.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SMLY",
+    "name": "SmileyCoin",
+    "icon": "https://assets.coinlayer.com/icons/SMLY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SMT*",
+    "name": "SmartMesh",
+    "icon": "https://assets.coinlayer.com/icons/SMT*.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SNC",
+    "name": "SunContract",
+    "icon": "https://assets.coinlayer.com/icons/SNC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SNGLS",
+    "name": "SingularDTV",
+    "icon": "https://assets.coinlayer.com/icons/SNGLS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SNM",
+    "name": "SONM",
+    "icon": "https://assets.coinlayer.com/icons/SNM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SNT",
+    "name": "Status Network Token",
+    "icon": "https://assets.coinlayer.com/icons/SNT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SPK",
+    "name": "Sparks",
+    "icon": "https://assets.coinlayer.com/icons/SPK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SRN",
+    "name": "SirinLabs",
+    "icon": "https://assets.coinlayer.com/icons/SRN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "STK",
+    "name": "STK Token",
+    "icon": "https://assets.coinlayer.com/icons/STK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "STORJ",
+    "name": "Storj",
+    "icon": "https://assets.coinlayer.com/icons/STORJ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "STU",
+    "name": "BitJob",
+    "icon": "https://assets.coinlayer.com/icons/STU.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "STX",
+    "name": "Stox",
+    "icon": "https://assets.coinlayer.com/icons/STX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SUB",
+    "name": "Substratum Network",
+    "icon": "https://assets.coinlayer.com/icons/SUB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SUR",
+    "name": "Suretly",
+    "icon": "https://assets.coinlayer.com/icons/SUR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SWFTC",
+    "name": "SwftCoin",
+    "icon": "https://assets.coinlayer.com/icons/SWFTC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "SYS",
+    "name": "SysCoin",
+    "icon": "https://assets.coinlayer.com/icons/SYS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TAAS",
+    "name": "Token as a Service",
+    "icon": "https://assets.coinlayer.com/icons/TAAS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TESLA",
+    "name": "TeslaCoilCoin",
+    "icon": "https://assets.coinlayer.com/icons/TESLA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "THC",
+    "name": "The Hempcoin",
+    "icon": "https://assets.coinlayer.com/icons/THC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "THETA",
+    "name": "Theta",
+    "icon": "https://assets.coinlayer.com/icons/THETA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "THS",
+    "name": "TechShares",
+    "icon": "https://assets.coinlayer.com/icons/THS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TIO",
+    "name": "Trade.io",
+    "icon": "https://assets.coinlayer.com/icons/TIO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TKN",
+    "name": "TokenCard  ",
+    "icon": "https://assets.coinlayer.com/icons/TKN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TKY",
+    "name": "THEKEY Token",
+    "icon": "https://assets.coinlayer.com/icons/TKY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TNB",
+    "name": "Time New Bank",
+    "icon": "https://assets.coinlayer.com/icons/TNB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TNT",
+    "name": "Tierion",
+    "icon": "https://assets.coinlayer.com/icons/TNT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TOA",
+    "name": "TOA Coin",
+    "icon": "https://assets.coinlayer.com/icons/TOA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TRC",
+    "name": "TerraCoin",
+    "icon": "https://assets.coinlayer.com/icons/TRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TRIG",
+    "name": "Trigger",
+    "icon": "https://assets.coinlayer.com/icons/TRIG.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TRST",
+    "name": "TrustCoin",
+    "icon": "https://assets.coinlayer.com/icons/TRST.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "TRUMP",
+    "name": "TrumpCoin",
+    "icon": "https://assets.coinlayer.com/icons/TRUMP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "UBQ",
+    "name": "Ubiq",
+    "icon": "https://assets.coinlayer.com/icons/UBQ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "UNO",
+    "name": "Unobtanium",
+    "icon": "https://assets.coinlayer.com/icons/UNO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "UNRC",
+    "name": "UniversalRoyalCoin",
+    "icon": "https://assets.coinlayer.com/icons/UNRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "UQC",
+    "name": "Uquid Coin",
+    "icon": "https://assets.coinlayer.com/icons/UQC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether",
+    "icon": "https://assets.coinlayer.com/icons/USDT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "UTK",
+    "name": "Utrust",
+    "icon": "https://assets.coinlayer.com/icons/UTK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "UTT",
+    "name": "United Traders Token",
+    "icon": "https://assets.coinlayer.com/icons/UTT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VEE",
+    "name": "BLOCKv",
+    "icon": "https://assets.coinlayer.com/icons/VEE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VERI",
+    "name": "Veritaseum",
+    "icon": "https://assets.coinlayer.com/icons/VERI.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VIA",
+    "name": "ViaCoin",
+    "icon": "https://assets.coinlayer.com/icons/VIA.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VIB",
+    "name": "Viberate",
+    "icon": "https://assets.coinlayer.com/icons/VIB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VIBE",
+    "name": "VIBEHub",
+    "icon": "https://assets.coinlayer.com/icons/VIBE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VOISE",
+    "name": "Voise",
+    "icon": "https://assets.coinlayer.com/icons/VOISE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VOX",
+    "name": "Voxels",
+    "icon": "https://assets.coinlayer.com/icons/VOX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VRS",
+    "name": "Veros",
+    "icon": "https://assets.coinlayer.com/icons/VRS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VTC",
+    "name": "VertCoin",
+    "icon": "https://assets.coinlayer.com/icons/VTC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "VUC",
+    "name": "Virta Unique Coin",
+    "icon": "https://assets.coinlayer.com/icons/VUC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WABI",
+    "name": "WaBi",
+    "icon": "https://assets.coinlayer.com/icons/WABI.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WAVES",
+    "name": "Waves",
+    "icon": "https://assets.coinlayer.com/icons/WAVES.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WAX",
+    "name": "Worldwide Asset eXchange",
+    "icon": "https://assets.coinlayer.com/icons/WAX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WC",
+    "name": "WhiteCoin",
+    "icon": "https://assets.coinlayer.com/icons/WC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WGR",
+    "name": "Wagerr",
+    "icon": "https://assets.coinlayer.com/icons/WGR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WINGS",
+    "name": "Wings DAO",
+    "icon": "https://assets.coinlayer.com/icons/WINGS.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WLK",
+    "name": "Wolk",
+    "icon": "https://assets.coinlayer.com/icons/WLK.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WOP",
+    "name": "WorldPay",
+    "icon": "https://assets.coinlayer.com/icons/WOP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WPR",
+    "name": "WePower",
+    "icon": "https://assets.coinlayer.com/icons/WPR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WRC",
+    "name": "Worldcore",
+    "icon": "https://assets.coinlayer.com/icons/WRC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "WTC",
+    "name": "Waltonchain",
+    "icon": "https://assets.coinlayer.com/icons/WTC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XAUR",
+    "name": "Xaurum",
+    "icon": "https://assets.coinlayer.com/icons/XAUR.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XBP",
+    "name": "Black Pearl Coin",
+    "icon": "https://assets.coinlayer.com/icons/XBP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XBY",
+    "name": "XtraBYtes",
+    "icon": "https://assets.coinlayer.com/icons/XBY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XCP",
+    "name": "CounterParty",
+    "icon": "https://assets.coinlayer.com/icons/XCP.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XCXT",
+    "name": "CoinonatX",
+    "icon": "https://assets.coinlayer.com/icons/XCXT.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XDN",
+    "name": "DigitalNote ",
+    "icon": "https://assets.coinlayer.com/icons/XDN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XEM",
+    "name": "NEM",
+    "icon": "https://assets.coinlayer.com/icons/XEM.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XGB",
+    "name": "GoldenBird",
+    "icon": "https://assets.coinlayer.com/icons/XGB.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XHI",
+    "name": "HiCoin",
+    "icon": "https://assets.coinlayer.com/icons/XHI.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XID",
+    "name": "Sphre AIR",
+    "icon": "https://assets.coinlayer.com/icons/XID.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XNC",
+    "name": "XenCoin",
+    "icon": "https://assets.coinlayer.com/icons/XNC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XTO",
+    "name": "Tao",
+    "icon": "https://assets.coinlayer.com/icons/XTO.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XTZ",
+    "name": "Tezos",
+    "icon": "https://assets.coinlayer.com/icons/XTZ.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XUC",
+    "name": "Exchange Union",
+    "icon": "https://assets.coinlayer.com/icons/XUC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "XZC",
+    "name": "ZCoin",
+    "icon": "https://assets.coinlayer.com/icons/XZC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "YEE",
+    "name": "Yee",
+    "icon": "https://assets.coinlayer.com/icons/YEE.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "YOC",
+    "name": "YoCoin",
+    "icon": "https://assets.coinlayer.com/icons/YOC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "YOYOW",
+    "name": "Yoyow",
+    "icon": "https://assets.coinlayer.com/icons/YOYOW.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZBC",
+    "name": "Zilbercoin",
+    "icon": "https://assets.coinlayer.com/icons/ZBC.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZCL",
+    "name": "ZClassic",
+    "icon": "https://assets.coinlayer.com/icons/ZCL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZEN",
+    "name": "ZenCash",
+    "icon": "https://assets.coinlayer.com/icons/ZEN.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZIL",
+    "name": "Zilliqa",
+    "icon": "https://assets.coinlayer.com/icons/ZIL.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZNY",
+    "name": "BitZeny",
+    "icon": "https://assets.coinlayer.com/icons/ZNY.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZRX",
+    "name": "0x",
+    "icon": "https://assets.coinlayer.com/icons/ZRX.png",
+    "start": "2018-03-01"
+  },
+  {
+    "symbol": "ZSC",
+    "name": "Zeusshield",
+    "icon": "https://assets.coinlayer.com/icons/ZSC.png",
+    "start": "2018-03-01"
+  }
+]
