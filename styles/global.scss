@@ -4,6 +4,10 @@
 
 // global
 
+::selection {
+  @apply bg-emerald-200 text-black;
+}
+
 a {
   @apply transition-colors text-teal-600 hover:text-teal-700;
 }
