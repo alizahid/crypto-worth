@@ -1,3 +1,5 @@
+process.env.TZ = 'Asia/Dhaka'
+
 import { formatISO, parseISO } from 'date-fns'
 
 import rates from '../../data/rates.json'
@@ -32,8 +34,6 @@ const handler = (req, res) => {
   const key = formatISO(parseISO(date), {
     representation: 'date'
   })
-
-  console.log('key', key)
 
   const data = rates[key]
 
