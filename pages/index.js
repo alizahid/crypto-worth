@@ -13,10 +13,8 @@ import currencies from '../data/currencies.json'
 import rates from '../data/rates.json'
 
 const Home = ({ defaultCurrency, maxDate }) => {
-  const defaultDate = new Date(2019, 0)
-
   const [currency, setCurrency] = useState(defaultCurrency)
-  const [date, setDate] = useState(defaultDate)
+  const [date, setDate] = useState(parseISO(defaultCurrency.start))
   const [minDate, setMinDate] = useState(new Date(2011, 0))
   const [amount, setAmount] = useState(100)
 
