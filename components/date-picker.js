@@ -24,11 +24,13 @@ export const DatePicker = ({
           }`}>
           {value ? format(value, 'MMMM y') : 'Date'}
         </div>
-        <Icon className="text-teal-500 ml-4" name="calendar" />
+        <Icon className="text-teal-600 ml-4" name="calendar" />
       </div>
 
       <Modal
-        header={<div className="font-semibold text-xl m-4">Date</div>}
+        header={
+          <div className="font-semibold text-xl m-4">Date of investment</div>
+        }
         onClose={() => setVisible(false)}
         visible={visible}>
         <div className="flex items-center justify-center m-4">
@@ -40,12 +42,12 @@ export const DatePicker = ({
               <div
                 className={`font-medium cursor-pointer text-white p-3 ${
                   disabled
-                    ? 'bg-gray-500'
+                    ? 'bg-gray-600'
                     : index === -1
-                    ? 'bg-violet-400'
+                    ? 'bg-violet-500'
                     : index === 0
-                    ? 'bg-violet-600'
-                    : 'bg-violet-500'
+                    ? 'bg-violet-700'
+                    : 'bg-violet-600'
                 }`}
                 key={`year-${index}`}
                 onClick={() => {
@@ -70,12 +72,12 @@ export const DatePicker = ({
               <div
                 className={`font-medium cursor-pointer text-white p-3 ${
                   disabled
-                    ? 'bg-gray-500'
+                    ? 'bg-gray-600'
                     : index === -1
-                    ? 'bg-pink-400'
+                    ? 'bg-pink-500'
                     : index === 0
-                    ? 'bg-pink-600'
-                    : 'bg-pink-500'
+                    ? 'bg-pink-700'
+                    : 'bg-pink-600'
                 }`}
                 key={`month-${index}`}
                 onClick={() => {

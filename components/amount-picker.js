@@ -17,7 +17,7 @@ export const AmountPicker = ({ className, onChange, value }) => {
           className={`flex-1 flex items-center ${value ? 'font-medium' : ''}`}>
           {value ? formatCurrency(value) : 'Currency'}
         </div>
-        <Icon className="text-violet-500 ml-4" name="dollar" />
+        <Icon className="text-violet-600 ml-4" name="dollar" />
       </div>
 
       <Modal

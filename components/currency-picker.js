@@ -19,7 +19,7 @@ export const CurrencyPicker = ({ className, onChange, value }) => {
           <img className="h-6 w-6 mr-4" src={value.icon} />
           {value.name ?? 'Currency'}
         </div>
-        <Icon className="text-rose-500 ml-4" name="expand" />
+        <Icon className="text-rose-600 ml-4" name="expand" />
       </div>
 
       <Modal
