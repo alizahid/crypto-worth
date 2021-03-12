@@ -33,17 +33,19 @@ const handler = (req, res) => {
     representation: 'date'
   })
 
+  console.log('key', key)
+
   const data = rates[key]
 
   if (!data) {
     return res.status(400).json({
-      error: 'Data not found 1'
+      error: 'Data not found'
     })
   }
 
   if (!data[currency]) {
     return res.status(400).json({
-      error: 'Data not found 2'
+      error: 'Data not found'
     })
   }
 
@@ -53,7 +55,7 @@ const handler = (req, res) => {
 
   if (!latest[currency]) {
     return res.status(400).json({
-      error: 'Data not found 3'
+      error: 'Data not found'
     })
   }
 
