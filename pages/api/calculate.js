@@ -1,10 +1,9 @@
 process.env.TZ = 'Asia/Dhaka'
 
+import { PrismaClient } from '@prisma/client'
 import { formatISO, parseISO } from 'date-fns'
 
-import rates from '../../data/rates.json'
-
-const handler = (req, res) => {
+const handler = async (req, res) => {
   if (req.method !== 'POST') {
     return res.status(400).json({
       error: 'Invalid method'
@@ -31,43 +30,61 @@ const handler = (req, res) => {
     })
   }
 
-  const key = formatISO(parseISO(date), {
-    representation: 'date'
+  const prisma = new PrismaClient()
+
+  const initial = await prisma.rate.findUnique({
+    where: {
+      date: formatISO(parseISO(date), {
+        representation: 'date'
+      })
+    }
   })
 
-  const data = rates[key]
-
-  if (!data) {
+  if (!initial) {
     return res.status(400).json({
-      error: 'Data not found'
+      error: 'Data not found 1'
     })
   }
 
-  if (!data[currency]) {
+  if (!initial.rates[currency]) {
     return res.status(400).json({
-      error: 'Data not found'
+      error: 'Data not found 2'
     })
   }
 
-  const quantity = amount / data[currency]
+  const quantity = amount / initial.rates[currency]
 
-  const [[today, latest]] = Object.entries(rates).reverse()
+  const latest = await prisma.rate.findFirst({
+    orderBy: {
+      date: 'desc'
+    }
+  })
 
-  if (!latest[currency]) {
+  if (!latest) {
     return res.status(400).json({
-      error: 'Data not found'
+      error: 'Data not found 3'
     })
   }
 
-  const total = quantity * latest[currency]
+  if (!latest.rates[currency]) {
+    return res.status(400).json({
+      error: 'Data not found 4'
+    })
+  }
+
+  const total = quantity * latest.rates[currency]
 
   res.json({
     amount,
-    date: key,
-    latest: latest[currency],
+    initial: {
+      date: initial.date,
+      price: initial.rates[currency]
+    },
+    latest: {
+      date: latest.date,
+      price: latest.rates[currency]
+    },
     quantity,
-    price: data[currency],
-    today: today,
     total
   })
 }

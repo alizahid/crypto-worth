@@ -3,12 +3,15 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "db": "prisma migrate dev --preview-feature",
     "dev": "next dev",
-    "fetch": "env-cmd node scripts/fetch.js",
+    "migrate": "env-cmd -f .env.production prisma migrate deploy --preview-feature",
+    "seed": "prisma db seed --preview-feature",
     "start": "next start"
   },
   "dependencies": {
     "@panelbear/panelbear-js": "^1.2.0",
+    "@prisma/client": "2.18.0",
     "axios": "^0.21.1",
     "date-fns": "^2.19.0",
     "next": "10.0.8",
@@ -20,7 +23,7 @@
     "autoprefixer": "^10.2.5",
     "env-cmd": "^10.1.0",
     "postcss": "^8.2.8",
-    "prettier": "^2.2.1",
+    "prisma": "2.18.0",
     "tailwindcss": "^2.0.3"
   }
 }

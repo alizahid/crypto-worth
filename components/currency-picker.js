@@ -3,9 +3,7 @@ import React, { useState } from 'react'
 import { Icon } from './icon'
 import { Modal } from './modal'
 
-import currencies from '../data/currencies.json'
-
-export const CurrencyPicker = ({ className, onChange, value }) => {
+export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
   const [visible, setVisible] = useState(false)
   const [query, setQuery] = useState('')
 
@@ -39,9 +37,9 @@ export const CurrencyPicker = ({ className, onChange, value }) => {
         visible={visible}>
         {currencies
           .filter(
-            ({ name, symbol }) =>
+            ({ name, id }) =>
               name.toLowerCase().includes(query.toLowerCase()) ||
-              symbol.toLowerCase().includes(query.toLowerCase())
+              id.toLowerCase().includes(query.toLowerCase())
           )
           .map((currency) => (
             <div
@@ -51,10 +49,10 @@ export const CurrencyPicker = ({ className, onChange, value }) => {
 
                 setVisible(false)
               }}
-              key={currency.symbol}>
+              key={currency.id}>
               <img className="h-8 w-8" src={currency.icon} />
               <div className="flex-1 ml-4">{currency.name}</div>
-              {value.symbol === currency.symbol && (
+              {value.id === currency.id && (
                 <Icon className="text-emerald-500 ml-4" name="check" />
               )}
             </div>

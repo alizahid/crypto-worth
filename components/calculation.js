@@ -16,40 +16,49 @@ export const Calculation = ({ currency, data }) => (
         {formatCurrency(data.amount)}
       </div>
 
-      <div>
+      <div className="my-2">
         <span>in</span>
         <span className="font-semibold ml-2">{currency.name}</span>
-        <span className="ml-2">in</span>
+        <span className="ml-2">on</span>
         <span className="font-semibold ml-2">
-          {parseAndFormatDate(data.date)}{' '}
+          {parseAndFormatDate(data.initial.date)}
         </span>
       </div>
 
-      <div>
+      <div className="my-2">
         <span>when it was</span>
-        <span className="font-semibold ml-2">{formatCurrency(data.price)}</span>
-        <span className="ml-2">per {currency.symbol}</span>
+        <span className="font-semibold ml-2">
+          {formatCurrency(data.initial.price)}
+        </span>
+        <span className="ml-2">per {currency.id}</span>
       </div>
 
-      <div>
+      <div className="my-2">
         <span>you would get</span>
         <span className="font-semibold ml-2">
           {formatQuantity(data.quantity)}
         </span>
-        <span className="ml-2">{currency.symbol}</span>
+        <span className="ml-2">{currency.id}</span>
       </div>
 
-      <div>which would be worth</div>
+      <div className="my-2">which would be worth</div>
 
       <div className="font-semibold my-2 text-xl">
         {formatCurrency(data.total)}
       </div>
 
-      <div>
-        <span>in</span>
+      <div className="my-2">
+        <span>on</span>
         <span className="font-semibold ml-2">
-          {parseAndFormatDate(data.today)}
+          {parseAndFormatDate(data.latest.date)}
         </span>
+      </div>
+
+      <div>
+        <span className="font-semibold">
+          {formatCurrency(data.latest.price)}
+        </span>
+        <span className="ml-2">per {currency.id}</span>
       </div>
     </div>
   </div>

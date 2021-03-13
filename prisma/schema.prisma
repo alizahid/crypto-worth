@@ -1,0 +1,23 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["createMany"]
+}
+
+model Currency {
+  id    String @id
+  name  String
+  icon  String
+  added String
+
+  @@index([added])
+}
+
+model Rate {
+  date  String @id
+  rates Json
+}

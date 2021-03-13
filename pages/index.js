@@ -1,5 +1,6 @@
+import { PrismaClient } from '@prisma/client'
 import axios from 'axios'
-import { parseISO } from 'date-fns'
+import { formatISO, parseISO } from 'date-fns'
 import Head from 'next/head'
 import { useState } from 'react'
 
@@ -9,13 +10,12 @@ import { CurrencyPicker } from '../components/currency-picker'
 import { DatePicker } from '../components/date-picker'
 import { Modal } from '../components/modal'
 
-import currencies from '../data/currencies.json'
-import rates from '../data/rates.json'
+const Home = ({ currencies, defaultCurrency, maxDate }) => {
+  const start = parseISO(defaultCurrency.added)
 
-const Home = ({ defaultCurrency, maxDate }) => {
   const [currency, setCurrency] = useState(defaultCurrency)
-  const [date, setDate] = useState(parseISO(defaultCurrency.start))
-  const [minDate, setMinDate] = useState(new Date(2011, 0))
+  const [date, setDate] = useState(start)
+  const [minDate, setMinDate] = useState(start)
   const [amount, setAmount] = useState(100)
 
   const [loading, setLoading] = useState(false)
@@ -31,11 +31,12 @@ const Home = ({ defaultCurrency, maxDate }) => {
         <div className="text-gray-600 font-medium">Currency</div>
         <CurrencyPicker
           className="mt-2"
+          currencies={currencies}
           onChange={(currency) => {
             setCurrency(currency)
 
-            setDate(parseISO(currency.start))
-            setMinDate(parseISO(currency.start))
+            setDate(parseISO(currency.added))
+            setMinDate(parseISO(currency.added))
 
             setData()
           }}
@@ -76,8 +77,10 @@ const Home = ({ defaultCurrency, maxDate }) => {
               const { data } = await axios({
                 data: {
                   amount,
-                  currency: currency.symbol,
-                  date
+                  currency: currency.id,
+                  date: formatISO(date, {
+                    representation: 'date'
+                  })
                 },
                 method: 'post',
                 url: '/api/calculate'
@@ -100,15 +103,25 @@ const Home = ({ defaultCurrency, maxDate }) => {
 }
 
 export const getStaticProps = async () => {
-  const defaultCurrency = currencies[0]
-  const data = Object.keys(rates)
+  const prisma = new PrismaClient()
 
-  const maxDate = data[data.length - 1]
+  const currencies = await prisma.currency.findMany({
+    orderBy: {
+      added: 'asc'
+    }
+  })
+
+  const { date } = await prisma.rate.findFirst({
+    orderBy: {
+      date: 'desc'
+    }
+  })
 
   return {
     props: {
-      defaultCurrency,
-      maxDate
+      currencies,
+      defaultCurrency: currencies[0],
+      maxDate: date
     }
   }
 }
