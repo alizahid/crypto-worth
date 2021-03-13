@@ -12,7 +12,7 @@ export const Calculation = ({ currency, data }) => (
     <div className="flex-1 mt-4 lg:mt-0 lg:ml-4">
       <div>If you had invested</div>
 
-      <div className="font-semibold my-2 text-xl">
+      <div className="font-semibold my-2 text-2xl">
         {formatCurrency(data.amount)}
       </div>
 
@@ -43,7 +43,7 @@ export const Calculation = ({ currency, data }) => (
 
       <div className="my-2">which would be worth</div>
 
-      <div className="font-semibold my-2 text-xl">
+      <div className="font-semibold my-2 text-2xl">
         {formatCurrency(data.total)}
       </div>
 
