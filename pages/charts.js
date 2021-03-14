@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { Chart } from '../components/chart'
 import { CurrencyPicker } from '../components/currency-picker'
 import { IntervalPicker } from '../components/interval-picker'
+import { Spinner } from '../components/spinner'
 
 import { prisma } from '../lib/prisma'
 
@@ -74,7 +75,12 @@ const Charts = ({ currencies, defaultCurrency }) => {
           </div>
         </div>
 
-        <div className="bg-white h-96 w-full mt-8">
+        <div className="bg-white h-96 w-full mt-8 relative">
+          {loading && (
+            <div className="bg-emerald-500 absolute top-1/2 -mt-7 left-1/2 -ml-7 p-4 z-50">
+              <Spinner light />
+            </div>
+          )}
           <Chart data={data} />
         </div>
       </main>
