@@ -10,7 +10,7 @@ export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
   return (
     <>
       <div
-        className={`bg-white p-4 flex items-center ${className}`}
+        className={`bg-white p-4 flex items-center max-w-lg ${className}`}
         onClick={() => setVisible(true)}>
         <div
           className={`flex-1 flex items-center ${value ? 'font-medium' : ''}`}>
