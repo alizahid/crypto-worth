@@ -41,14 +41,14 @@ const handler = async (req, res) => {
   })
 
   if (!initial) {
-    return res.status(400).json({
-      error: 'Data not found 1'
+    return res.status(404).json({
+      error: 'Data not found'
     })
   }
 
   if (!initial.rates[currency]) {
-    return res.status(400).json({
-      error: 'Data not found 2'
+    return res.status(404).json({
+      error: 'Data not found'
     })
   }
 
@@ -61,14 +61,14 @@ const handler = async (req, res) => {
   })
 
   if (!latest) {
-    return res.status(400).json({
-      error: 'Data not found 3'
+    return res.status(404).json({
+      error: 'Data not found'
     })
   }
 
   if (!latest.rates[currency]) {
-    return res.status(400).json({
-      error: 'Data not found 4'
+    return res.status(404).json({
+      error: 'Data not found'
     })
   }
 
