@@ -1,7 +1,8 @@
 process.env.TZ = 'Asia/Dhaka'
 
-import { PrismaClient } from '@prisma/client'
 import { formatISO, parseISO } from 'date-fns'
+
+import { prisma } from '../../lib/prisma'
 
 const handler = async (req, res) => {
   if (req.method !== 'POST') {
@@ -29,8 +30,6 @@ const handler = async (req, res) => {
       error: 'Date is required'
     })
   }
-
-  const prisma = new PrismaClient()
 
   const initial = await prisma.rate.findUnique({
     where: {

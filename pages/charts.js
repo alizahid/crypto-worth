@@ -1,4 +1,3 @@
-import { PrismaClient } from '@prisma/client'
 import axios from 'axios'
 import Head from 'next/head'
 import { useCallback, useEffect, useState } from 'react'
@@ -6,6 +5,8 @@ import { useCallback, useEffect, useState } from 'react'
 import { Chart } from '../components/chart'
 import { CurrencyPicker } from '../components/currency-picker'
 import { IntervalPicker } from '../components/interval-picker'
+
+import { prisma } from '../lib/prisma'
 
 const Charts = ({ currencies, defaultCurrency }) => {
   const [currency, setCurrency] = useState(defaultCurrency)
@@ -82,8 +83,6 @@ const Charts = ({ currencies, defaultCurrency }) => {
 }
 
 export const getStaticProps = async () => {
-  const prisma = new PrismaClient()
-
   const currencies = await prisma.currency.findMany({
     orderBy: {
       added: 'asc'

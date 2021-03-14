@@ -1,4 +1,3 @@
-import { PrismaClient } from '@prisma/client'
 import axios from 'axios'
 import { formatISO, parseISO } from 'date-fns'
 import Head from 'next/head'
@@ -9,6 +8,8 @@ import { Calculation } from '../components/calculation'
 import { CurrencyPicker } from '../components/currency-picker'
 import { DatePicker } from '../components/date-picker'
 import { Modal } from '../components/modal'
+
+import { prisma } from '../lib/prisma'
 
 const Home = ({ currencies, defaultCurrency, maxDate }) => {
   const start = parseISO(defaultCurrency.added)
@@ -105,8 +106,6 @@ const Home = ({ currencies, defaultCurrency, maxDate }) => {
 }
 
 export const getStaticProps = async () => {
-  const prisma = new PrismaClient()
-
   const currencies = await prisma.currency.findMany({
     orderBy: {
       added: 'asc'

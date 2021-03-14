@@ -1,6 +1,5 @@
 process.env.TZ = 'Asia/Dhaka'
 
-import { PrismaClient } from '@prisma/client'
 import {
   differenceInDays,
   formatISO,
@@ -10,6 +9,8 @@ import {
   subWeeks,
   subYears
 } from 'date-fns'
+
+import { prisma } from '../../lib/prisma'
 
 const handler = async (req, res) => {
   const { currency, interval } = req.query
@@ -25,8 +26,6 @@ const handler = async (req, res) => {
       error: 'Interval is invalid'
     })
   }
-
-  const prisma = new PrismaClient()
 
   const coin = await prisma.currency.findUnique({
     where: {
