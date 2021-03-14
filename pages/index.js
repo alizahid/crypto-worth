@@ -28,7 +28,9 @@ const Home = ({ currencies, defaultCurrency, maxDate }) => {
       </Head>
 
       <main>
-        <div className="text-gray-600 font-medium">Currency</div>
+        <h2 className="text-4xl font-semibold">Calculator</h2>
+
+        <div className="text-gray-600 font-medium mt-8">Currency</div>
         <CurrencyPicker
           className="mt-2"
           currencies={currencies}
