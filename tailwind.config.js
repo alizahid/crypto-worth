@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     colors,
     fontFamily: {
-      body: ['IBM Plex Mono', 'monospace']
+      body: ['Roboto Mono', 'monospace']
     },
     extend: {
       colors: {
