@@ -15,8 +15,8 @@ export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
         onClick={() => setVisible(true)}>
         <div
           className={`flex-1 flex items-center ${value ? 'font-medium' : ''}`}>
-          <Image height={24} src={value.icon} width={24} />
-          <div className="ml-4">{value.name ?? 'Currency'}</div>
+          <Image alt={value.name} height={24} src={value.icon} width={24} />
+          <div className="ml-4">{value.name}</div>
         </div>
         <Icon className="text-rose-600 ml-4" name="expand" />
       </div>
@@ -51,7 +51,12 @@ export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
                 setVisible(false)
               }}
               key={currency.id}>
-              <Image height={24} src={currency.icon} width={24} />
+              <Image
+                alt={currency.name}
+                height={24}
+                src={currency.icon}
+                width={24}
+              />
               <div className="flex-1 ml-4">{currency.name}</div>
               {value.id === currency.id && (
                 <Icon className="text-emerald-500 ml-4" name="check" />

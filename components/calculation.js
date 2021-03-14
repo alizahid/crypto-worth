@@ -9,7 +9,7 @@ import {
 
 export const Calculation = ({ currency, data }) => (
   <div className="flex flex-col lg:flex-row lg:items-center bg-emerald-700 text-white p-4">
-    <Image height={48} src={currency.icon} width={48} />
+    <Image alt={currency.name} height={48} src={currency.icon} width={48} />
     <div className="flex-1 mt-4 lg:mt-0 lg:ml-4">
       <div>If you had invested</div>
 

@@ -45,6 +45,10 @@ const Charts = ({ currencies, defaultCurrency }) => {
     <>
       <Head>
         <title>Charts / What would my crypto investment be worth today?</title>
+        <meta
+          name="description"
+          content="What would my crypto investment be worth today?"
+        />
       </Head>
 
       <main>

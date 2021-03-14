@@ -26,6 +26,10 @@ const Home = ({ currencies, defaultCurrency, maxDate }) => {
     <>
       <Head>
         <title>What would my crypto investment be worth today?</title>
+        <meta
+          name="description"
+          content="What would my crypto investment be worth today?"
+        />
       </Head>
 
       <main>
