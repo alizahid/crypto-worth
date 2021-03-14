@@ -1,50 +1,41 @@
-import axios from 'axios'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import { useCallback, useEffect, useState } from 'react'
 
 import { Chart } from '../components/chart'
 import { CurrencyPicker } from '../components/currency-picker'
 import { IntervalPicker } from '../components/interval-picker'
-import { Spinner } from '../components/spinner'
 
+import { getChartData } from '../lib/api'
 import { prisma } from '../lib/prisma'
 
-const Charts = ({ currencies, defaultCurrency }) => {
-  const [currency, setCurrency] = useState(defaultCurrency)
-  const [interval, setInterval] = useState('week')
+const Charts = ({ currencies, data, currency, interval }) => {
+  const { events, push } = useRouter()
 
   const [loading, setLoading] = useState(false)
-  const [data, setData] = useState([])
-
-  const fetchData = useCallback(async (currency, interval) => {
-    setLoading(true)
-
-    try {
-      const {
-        data: { data }
-      } = await axios({
-        params: {
-          currency: currency.id,
-          interval
-        },
-        url: '/api/charts'
-      })
-
-      setData([])
-      setData(data)
-    } finally {
-      setLoading(false)
-    }
-  }, [])
 
   useEffect(() => {
-    fetchData(currency, interval)
-  }, [currency, interval])
+    const onStart = () => setLoading(true)
+    const onEnd = () => setLoading(false)
+
+    events.on('routeChangeStart', onStart)
+    events.on('routeChangeComplete', onEnd)
+    events.on('routeChangeError', onEnd)
+
+    return () => {
+      events.off('routeChangeStart', onStart)
+      events.off('routeChangeComplete', onEnd)
+      events.off('routeChangeError', onEnd)
+    }
+  }, [])
 
   return (
     <>
       <Head>
-        <title>Charts / What would my crypto investment be worth today?</title>
+        <title>
+          {currency.name} / Charts / What would my crypto investment be worth
+          today?
+        </title>
         <meta
           name="description"
           content="What would my crypto investment be worth today?"
@@ -54,7 +45,10 @@ const Charts = ({ currencies, defaultCurrency }) => {
       <main>
         <h2 className="text-4xl font-semibold">Charts</h2>
 
-        <div className="lg:flex lg:mt-8">
+        <div
+          className={`lg:flex lg:mt-8 ${
+            loading ? 'pointer-events-none cursor-wait' : ''
+          }`}>
           <div className="lg:w-96">
             <div className="text-gray-600 font-medium mt-8 lg:mt-0">
               Currency
@@ -62,7 +56,9 @@ const Charts = ({ currencies, defaultCurrency }) => {
             <CurrencyPicker
               className="mt-2"
               currencies={currencies}
-              onChange={(currency) => setCurrency(currency)}
+              onChange={(currency) =>
+                push(`/charts?currency=${currency.id}&interval=${interval}`)
+              }
               value={currency}
             />
           </div>
@@ -73,18 +69,15 @@ const Charts = ({ currencies, defaultCurrency }) => {
             </div>
             <IntervalPicker
               className="mt-2"
-              onChange={(interval) => setInterval(interval)}
+              onChange={(interval) =>
+                push(`/charts?currency=${currency.id}&interval=${interval}`)
+              }
               value={interval}
             />
           </div>
         </div>
 
         <div className="bg-white h-96 w-full mt-8 relative">
-          {loading && (
-            <div className="bg-emerald-500 absolute top-1/2 -mt-7 left-1/2 -ml-7 p-4 z-50">
-              <Spinner light />
-            </div>
-          )}
           <Chart data={data} />
         </div>
       </main>
@@ -92,17 +85,25 @@ const Charts = ({ currencies, defaultCurrency }) => {
   )
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async ({ query }) => {
   const currencies = await prisma.currency.findMany({
     orderBy: {
       added: 'asc'
     }
   })
 
+  const currency =
+    currencies.find(({ id }) => id === query?.currency) ?? currencies[0]
+  const interval = query?.interval ?? 'week'
+
+  const data = await getChartData(currency.id, interval)
+
   return {
     props: {
       currencies,
-      defaultCurrency: currencies[0]
+      currency,
+      data,
+      interval
     }
   }
 }
