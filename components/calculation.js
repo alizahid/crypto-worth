@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 import {
@@ -8,7 +9,7 @@ import {
 
 export const Calculation = ({ currency, data }) => (
   <div className="flex flex-col lg:flex-row lg:items-center bg-emerald-700 text-white p-4">
-    <img className="h-12 w-12" src={currency.icon} />
+    <Image height={48} src={currency.icon} width={48} />
     <div className="flex-1 mt-4 lg:mt-0 lg:ml-4">
       <div>If you had invested</div>
 

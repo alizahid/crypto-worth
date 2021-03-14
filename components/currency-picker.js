@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React, { useState } from 'react'
 
 import { Icon } from './icon'
@@ -14,8 +15,8 @@ export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
         onClick={() => setVisible(true)}>
         <div
           className={`flex-1 flex items-center ${value ? 'font-medium' : ''}`}>
-          <img className="h-6 w-6 mr-4" src={value.icon} />
-          {value.name ?? 'Currency'}
+          <Image height={24} src={value.icon} width={24} />
+          <div className="ml-4">{value.name ?? 'Currency'}</div>
         </div>
         <Icon className="text-rose-600 ml-4" name="expand" />
       </div>
@@ -50,7 +51,7 @@ export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
                 setVisible(false)
               }}
               key={currency.id}>
-              <img className="h-8 w-8" src={currency.icon} />
+              <Image height={24} src={currency.icon} width={24} />
               <div className="flex-1 ml-4">{currency.name}</div>
               {value.id === currency.id && (
                 <Icon className="text-emerald-500 ml-4" name="check" />
