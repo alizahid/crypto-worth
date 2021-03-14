@@ -7,10 +7,10 @@ export const Header = () => (
   <header>
     <nav className="flex items-center">
       <Link href="/">
-        <a className="text-black font-medium">Calculator</a>
+        <a className="text-gray-500 font-medium">Calculator</a>
       </Link>
       <Link href="/charts">
-        <a className="text-black font-medium ml-4">Charts</a>
+        <a className="text-gray-500 font-medium ml-4">Charts</a>
       </Link>
     </nav>
 
