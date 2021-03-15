@@ -5,7 +5,7 @@ import { Logo } from './logo'
 
 export const Header = () => (
   <header>
-    <nav className="flex items-center">
+    <nav className="hidden items-center mb-8">
       <Link href="/">
         <a className="text-gray-500 font-medium">Calculator</a>
       </Link>
@@ -14,7 +14,7 @@ export const Header = () => (
       </Link>
     </nav>
 
-    <div className="flex items-center mt-8">
+    <div className="flex items-center">
       <Logo />
       <h1 className="text-2xl font-semibold flex-1 ml-4">
         What would my crypto investment be worth today?
