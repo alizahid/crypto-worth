@@ -42,7 +42,7 @@ const Charts = ({ currencies, data, currency, interval }) => {
         />
       </Head>
 
-      <main>
+      <main className="flex flex-col">
         <h2 className="text-4xl font-semibold">Charts</h2>
 
         <div
@@ -77,7 +77,7 @@ const Charts = ({ currencies, data, currency, interval }) => {
           </div>
         </div>
 
-        <div className="bg-white h-96 w-full mt-8 relative">
+        <div className="bg-white h-96 flex-1 w-full mt-8 relative">
           <Chart data={data} interval={interval} />
         </div>
       </main>
