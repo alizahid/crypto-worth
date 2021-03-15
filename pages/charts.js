@@ -78,7 +78,7 @@ const Charts = ({ currencies, data, currency, interval }) => {
         </div>
 
         <div className="bg-white h-96 w-full mt-8 relative">
-          <Chart data={data} />
+          <Chart data={data} interval={interval} />
         </div>
       </main>
     </>

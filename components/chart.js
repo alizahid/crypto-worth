@@ -3,28 +3,36 @@ import React from 'react'
 
 import { formatCurrency, parseAndFormatDate } from '../lib/helpers'
 
-export const Chart = ({ data }) => (
+export const Chart = ({ data: { data, tickValues }, interval }) => (
   <ResponsiveLine
-    axisBottom={null}
+    axisBottom={{
+      format: (value) => parseAndFormatDate(value, false),
+      tickPadding: interval === 'all' ? 0 : 8,
+      tickSize: 0,
+      tickValues
+    }}
     axisLeft={null}
     colors="#059669"
+    crosshairType="x"
     data={[
       {
         data,
         id: 'data'
       }
     ]}
-    enableCrosshair={false}
     enableGridX={false}
     enableGridY={false}
     enablePoints={false}
     enableSlices="x"
     lineWidth={1}
     margin={{
-      bottom: 8,
+      bottom: interval === 'all' ? 8 : 32,
       left: 8,
       right: 8,
       top: 8
+    }}
+    theme={{
+      fontFamily: 'inherit'
     }}
     sliceTooltip={({ slice }) => (
       <div className="bg-emerald-200 text-center p-3">
