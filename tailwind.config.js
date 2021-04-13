@@ -1,23 +1,16 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
+  purge: ['pages/**/*.js', 'components/**/*.js'],
+  mode: 'jit',
   darkMode: false,
   theme: {
     colors,
     fontFamily: {
       body: ['Roboto Mono', 'monospace']
     },
-    extend: {
-      colors: {
-        modal: 'rgba(0, 0, 0, 0.75)'
-      }
-    }
+    extend: {}
   },
-  variants: {
-    extend: {
-      borderWidth: ['first']
-    }
-  },
+  variants: {},
   plugins: []
 }

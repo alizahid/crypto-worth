@@ -17,7 +17,7 @@ export const Modal = ({ children, footer, header, onClose, visible }) => (
         transition={{
           duration: 0.2
         }}
-        className="fixed top-0 right-0 bottom-0 left-0 bg-modal flex items-center justify-center z-30 p-8"
+        className="fixed top-0 right-0 bottom-0 left-0 bg-black bg-opacity-75 flex items-center justify-center z-30 p-8"
         onClick={(event) => {
           if (event.target === event.currentTarget) {
             onClose()
