@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import Image from 'next/image'
 import React, { useState } from 'react'
 
@@ -11,10 +12,13 @@ export const CurrencyPicker = ({ className, currencies, onChange, value }) => {
   return (
     <>
       <div
-        className={`bg-white p-4 flex items-center max-w-lg ${className}`}
+        className={clsx(
+          'bg-white cursor-pointer p-4 flex items-center max-w-lg',
+          className
+        )}
         onClick={() => setVisible(true)}>
         <div
-          className={`flex-1 flex items-center ${value ? 'font-medium' : ''}`}>
+          className={clsx('flex-1 flex items-center', value && 'font-medium')}>
           <Image alt={value.name} height={24} src={value.icon} width={24} />
           <div className="ml-4">{value.name}</div>
         </div>

@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import { AnimatePresence, motion } from 'framer-motion'
 import React from 'react'
 
@@ -29,9 +30,11 @@ export const Modal = ({ children, footer, header, onClose, visible }) => (
         <div className="flex flex-col cursor-default bg-white text-black overflow-hidden max-h-full w-full lg:w-96">
           {header}
           <div
-            className={`max-h-full overflow-y-auto border-gray-200 ${
-              header ? 'border-t' : ''
-            } ${footer ? 'border-b' : ''}`}>
+            className={clsx(
+              'max-h-full overflow-y-auto border-gray-200',
+              header && 'border-t',
+              footer && 'border-b'
+            )}>
             {children}
           </div>
           {footer}

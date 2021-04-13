@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import {
   addDays,
   addMonths,
@@ -23,12 +24,16 @@ export const DatePicker = ({
   return (
     <>
       <div
-        className={`bg-white p-4 flex items-center max-w-lg ${className}`}
+        className={clsx(
+          'bg-white cursor-pointer p-4 flex items-center max-w-lg',
+          className
+        )}
         onClick={() => setVisible(true)}>
         <div
-          className={`flex-1 flex items-center ${
+          className={clsx(
+            'flex-1 flex items-center',
             value ? 'font-medium text-black' : 'text-gray-500'
-          }`}>
+          )}>
           {value ? format(value, 'MMMM d, y') : 'Date'}
         </div>
         <Icon className="text-teal-600 ml-4" name="calendar" />
@@ -47,7 +52,8 @@ export const DatePicker = ({
 
             return (
               <div
-                className={`font-medium cursor-pointer text-white p-3 ${
+                className={clsx(
+                  'font-medium cursor-pointer text-white p-3',
                   disabled
                     ? 'bg-gray-600'
                     : index === -1
@@ -55,7 +61,7 @@ export const DatePicker = ({
                     : index === 0
                     ? 'bg-violet-700'
                     : 'bg-violet-600'
-                }`}
+                )}
                 key={`year-${index}`}
                 onClick={() => {
                   if (disabled) {
@@ -77,7 +83,8 @@ export const DatePicker = ({
 
             return (
               <div
-                className={`font-medium cursor-pointer text-white p-3 ${
+                className={clsx(
+                  'font-medium cursor-pointer text-white p-3',
                   disabled
                     ? 'bg-gray-600'
                     : index === -1
@@ -85,7 +92,7 @@ export const DatePicker = ({
                     : index === 0
                     ? 'bg-pink-700'
                     : 'bg-pink-600'
-                }`}
+                )}
                 key={`month-${index}`}
                 onClick={() => {
                   if (disabled) {
@@ -107,7 +114,8 @@ export const DatePicker = ({
 
             return (
               <div
-                className={`font-medium cursor-pointer text-white p-3 ${
+                className={clsx(
+                  'font-medium cursor-pointer text-white p-3',
                   disabled
                     ? 'bg-gray-600'
                     : index === -1
@@ -115,7 +123,7 @@ export const DatePicker = ({
                     : index === 0
                     ? 'bg-fuchsia-700'
                     : 'bg-fuchsia-600'
-                }`}
+                )}
                 key={`day-${index}`}
                 onClick={() => {
                   if (disabled) {

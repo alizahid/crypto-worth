@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import React, { useState } from 'react'
 
 import { Icon } from './icon'
@@ -11,10 +12,13 @@ export const AmountPicker = ({ className, onChange, value }) => {
   return (
     <>
       <div
-        className={`bg-white p-4 flex items-center max-w-lg ${className}`}
+        className={clsx(
+          'bg-white cursor-pointer p-4 flex items-center max-w-lg',
+          className
+        )}
         onClick={() => setVisible(true)}>
         <div
-          className={`flex-1 flex items-center ${value ? 'font-medium' : ''}`}>
+          className={clsx('flex-1 flex items-center', value && 'font-medium')}>
           {value ? formatCurrency(value) : 'Currency'}
         </div>
         <Icon className="text-violet-600 ml-4" name="dollar" />
