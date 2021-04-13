@@ -2,13 +2,22 @@ const { COINLAYER_KEY } = process.env
 
 const { PrismaClient } = require('@prisma/client')
 const axios = require('axios')
-const { addDays, differenceInDays, formatISO } = require('date-fns')
+const { addDays, differenceInDays, formatISO, parseISO } = require('date-fns')
 
 const prisma = new PrismaClient()
 
 const fetchRates = async () => {
-  const beginning = new Date(2011, 0)
-  const days = differenceInDays(new Date(), beginning)
+  const latest = await prisma.rate.findFirst({
+    orderBy: {
+      date: 'desc'
+    }
+  })
+
+  const beginning = latest
+    ? addDays(parseISO(latest.date), 1)
+    : new Date(2011, 0)
+
+  const days = differenceInDays(new Date(), beginning) + 1
 
   const data = await Promise.all(
     new Array(days).fill(0).map(async (i, index) => {
@@ -22,7 +31,7 @@ const fetchRates = async () => {
         params: {
           access_key: COINLAYER_KEY
         },
-        url: `https://api.coinlayer.com/${date}`
+        url: `http://api.coinlayer.com/${date}`
       })
 
       return {
@@ -44,7 +53,7 @@ const fetchList = async () => {
     params: {
       access_key: COINLAYER_KEY
     },
-    url: 'https://api.coinlayer.com/list'
+    url: 'http://api.coinlayer.com/list'
   })
 
   const data = await Promise.all(
@@ -61,6 +70,8 @@ const fetchList = async () => {
       }
     })
   )
+
+  await prisma.currency.deleteMany()
 
   await prisma.currency.createMany({
     data
