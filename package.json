@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "data": "env-cmd -f .env.production prisma db seed --preview-feature",
     "db": "prisma migrate dev",
     "dev": "next dev",
     "migrate": "env-cmd -f .env.production prisma migrate deploy",
